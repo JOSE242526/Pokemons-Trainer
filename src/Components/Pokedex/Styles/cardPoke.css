@@ -1,0 +1,246 @@
+.card-poke {
+    display: inline-flex;
+    width: 100%;
+    max-width: 250px;
+    height: 420px;
+    border-radius: 8px;
+    overflow: hidden;
+    border-width: 10px;
+    border-style: solid;
+    flex-direction: column;
+    /* margin: 90px 10px 0px; */
+    margin-bottom: -50px;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.card-poke__header {
+    height: 200px;
+    background-color: green;
+    position: relative;
+    margin-bottom: 65PX;
+}
+
+.card-poke__sprite {
+    width: 60%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card-poke__body {
+    margin-bottom: 30px;
+}
+.card-poke__name {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.card-poke__types-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card-poke__type {
+    font-size: 17px;
+    text-transform: capitalize;
+    position: relative;
+}
+.card-poke__type:nth-child(2)::before {
+    content: "/";
+    position: absolute;
+    left: -10px;
+}
+
+.card-poke__type-label {
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+}
+
+.card-poke__stats-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 5px;
+    justify-items: center;
+    padding: 0 5px 35px;
+}   
+.card-poke__stat {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-poke__stat-label {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.card-poke__stat-number {
+    font-size: 18px;
+}
+
+/* Borde Color*/ 
+
+.border-grass {
+    border-color: #c3dea3;
+}
+.border-fire {
+    border-color: #e35825de;
+}
+.border-water {
+    border-color: #1382918a;
+}
+.border-rock {
+    border-color: #7E7E7E;
+}
+.border-dark {
+    border-color: #5A5E5D;  
+}
+.border-fairy {
+    border-color: #C23867;  
+}
+.border-steel    {
+    border-color: #2B319B;  
+}
+.border-ghost    {
+    border-color: #323569;  
+}
+.border-bug    {
+    border-color: #4AB648;  
+}
+.border-ground   {
+    border-color: #895C1A;  
+}
+.border-fighting   {
+    border-color: #96402A;  
+}
+.border-ice   {
+    border-color: #6FBEDF;  
+}
+.border-dragon   {
+    border-color: #478A93;  
+}
+.border-psychic  {
+    border-color: #5cd624;  
+}
+.border-electric  {
+    border-color: #f1ee3d;  
+}
+.border-normal  {
+    border-color: #ebbb37e3;  
+}
+
+/*Background color */ 
+
+.bg-grass {
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+.bg-fire {
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+.bg-water {
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+}
+.bg-rock {
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+}
+.bg-dark {
+    background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
+}
+.bg-fairy {
+    background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+}
+.bg-steel {
+    background: linear-gradient(179.75deg, #0C1395 -19.96%, #2B319B 43.67%, #7075D9 138.4%);
+}
+.bg-ghost {
+    background: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
+}
+.bg-bug {
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+}
+.bg-ground {
+    background: linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%);
+}
+.bg-fighting {
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+}
+.bg-ice {
+    background: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
+}
+.bg-dragon {
+    background: linear-gradient(179.75deg, #478A93 -19.96%, #56A4AE 43.67%, #A2BEC1 138.4%);
+}
+.bg-psychic {
+    background: linear-gradient(179.75deg, #34d575eb -19.96%, #5cd624 43.67%, #c7f522 138.4%);
+}
+.bg-electric {
+    background: linear-gradient(179.75deg, #f5f559 -19.96%, #e1e438 43.67%, #bece2feb 138.4%);
+}
+.bg-normal {
+    background: linear-gradient(179.75deg, #ca970a -19.96%, #f8ec64d3 10.67%, #f8d01eeb 138.4%);
+}
+
+
+/* Letter Color*/   
+
+.letter-grass {
+    color: #416460;
+}
+.letter-fire {
+    color: #e75c35;
+}
+.letter-water {
+    color: #1479FB;
+}
+.letter-rock {
+    color: #7E7E7E;
+}
+.letter-dark {
+    color: #030706;
+}
+.letter-fairy {
+    color: #971B45;
+}
+.letter-steel {
+    color: #0C1395;
+}
+.letter-ghost {
+    color: #323569;
+}
+.letter-bug {
+    color: #4AB648;
+}
+.letter-ground {
+    color: #654008;
+}
+.letter-fighting {
+    color: #96402A;
+}
+.letter-ice {
+    color: #6FBEDF;
+}
+.letter-dragon {
+    color: #478A93;
+}
+.letter-psychic {
+    color: #3cbb0a;
+}
+.letter-flying {
+    color: #bb100a;
+}
+.letter-electric {
+    color: #ecdd08;
+}
+.letter-normal {
+    color: #5c570c;
+}
+
+
+

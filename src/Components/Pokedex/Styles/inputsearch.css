@@ -1,0 +1,31 @@
+.input__search {
+    position: relative;
+    width: 260px;
+    height: 40px;
+    left: 420px;
+    top: 125px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+    margin-bottom: 70px;
+}
+
+.search__btn {
+    position: relative;
+    width: 120px;
+    height: 43px;
+    left: 420px;
+    top: 125px;
+    background: #dd1a1a;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+}
+
+.select__search {
+    width: 250px;
+    position: relative;
+    left: 820px;
+    top: 12px;
+    min-height: 43px;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+    background: #FFFFFF;
+    margin-bottom: 50px;
+}

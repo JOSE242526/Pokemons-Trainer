@@ -1,0 +1,148 @@
+.container__div {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    left: 162px;
+    top: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pokedexById__img {
+    position: absolute;
+    width: 341px;
+    height: 314px;
+    left: 350px;
+    top: 90px;
+    z-index: 1000;
+}
+
+.card__id {
+    position: absolute;
+    width: 78px;
+    height: 43px;
+    left: 45%;
+    top: 200px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 47px;
+    font-size: 40px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.title__poke {
+    position: absolute;
+    width: 268px;
+    height: 43px;
+    left: 38%;
+    top: 240px;
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card__info-li {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 290px;
+    margin-left: 36%;
+    z-index: 10000;
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.card__type-id {
+    position: relative;
+    width: 1116px;
+    height: 1272px;
+    left: 45%;
+    top: -20px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.type__id {
+    display: flex;
+    gap: 10px;
+    font-size: 17px;
+    text-transform: capitalize;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 10px;
+}
+
+.type__id:nth-child(2)::before {
+    content: "/";
+    position: absolute;
+    left: -10px;
+}
+
+.card__stat {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+align-items: center;
+text-transform: capitalize;
+margin-bottom: 1px;
+}
+.card__stat {
+    position:sticky;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+    transform: translateX(-25%);
+}
+.card__label {
+    position: sticky;
+    color: #999;
+    text-transform: uppercase;
+    font-size: 12px;
+    
+}
+
+.card__moves {
+    position: relative;
+    width: 700px;
+    height: 690px;
+    top: -580px;
+    left: 600px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+.title__move {
+    align-items: center;
+    text-align: center; 
+}
+
+.info__move {   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: start;
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    list-style: none;
+    margin-left: 50px;
+}
+
